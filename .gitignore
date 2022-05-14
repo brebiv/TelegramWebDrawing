@@ -1,0 +1,12 @@
+# Database
+*.sqlite3
+
+# Virtual env
+venv/
+
+# node_modules
+node_module/
+
+# arhived folder
+
+*.zip

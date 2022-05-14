@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../public/Pacifico-Regular.woff2') format('woff2'),
+      url('../public/Pacifico-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.icon-color {
+  /* color: #f5f5dc */
+  /* filter: invert(99%) sepia(87%) saturate(1452%) hue-rotate(333deg) brightness(100%) contrast(99%); */
+  filter: invert(85%) sepia(81%) saturate(2973%) hue-rotate(329deg) brightness(107%) contrast(103%);
+}
+
+.main-font {
+  font-family: 'Pacifico'
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Ultra');
+.button-font {
+    font-family: "Ultra", serif;
+    font-weight: bold;
+    text-align: center;
+    /* font-size: 35px; */
+    /* letter-spacing: 7px; */
+    /* color: rgb(255, 238, 0); */
+    /* background-color: rgb(84, 84, 84); */
+    /* text-shadow: rgb(0, 0, 0) 2px 2px 2px; */
+/* } */ 
+
+@import url('https://fonts.googleapis.com/css?family=Delius');
+.button-font{
+    font-family: "Delius", cursive;
+    font-weight: bold;
+    text-align: center;
+    /* font-size: 35px; */
+    letter-spacing: 7px;
+    color: #ffee00;
+    /* background-color/: rgb(84, 84, 84); */
+    /* text-shadow: rgb(0, 0, 0) 2px 2px 2px; */
+}
+
+/* #tooltip {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+} */
